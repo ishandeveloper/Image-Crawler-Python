@@ -18,6 +18,22 @@ try:
 
     imglinks=[]
 
+    for i in imgs:
+        link=i.get('src')
+        if ('http://' not in link):
+            link=url+link
+        imglinks.append(link)
+
+    print('\n\n'+str(len(imglinks))+' Images Found.\n\n')
+
+
+    if os.path.isdir('images'):
+        shutil.rmtree('images')
+    os.mkdir('images')
+    i=1
     
 
+
 except:
+    print("Oops! An unknown error has occurred or maybe you just entered an Invalid URL :D")
+    
