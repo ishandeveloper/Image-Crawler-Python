@@ -2,7 +2,7 @@
 A simple python script to help you extract all the images from any webpage and save them on your local computer.
 
 ### Example
-Using this webpage url <a href="http://www.ishandeveloper.com/Basketball-Tournament/">(Basketball Tournament)</a> will save images as in the above <a href="example/">example</a> folder.
+Using this webpage url <a href="http://www.ishandeveloper.com/Basketball-Tournament/">(Basketball Tournament)</a> will save images as in the above <a href="images/">images</a> folder.
 
 ### Usage
 
