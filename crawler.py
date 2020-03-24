@@ -45,6 +45,7 @@ try:
             f.close()
             break
         
+    print('\n\nMade by Ishan Sharma(github.com/ishandeveloper)')
 
 except:
     print("Oops! An unknown error has occurred or maybe you just entered an Invalid URL :D")
