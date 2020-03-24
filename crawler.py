@@ -33,6 +33,17 @@ try:
     i=1
     
     for index, img_link in enumerate(imglinks):
+        if i<=len(imglinks):
+            img_data=requests.get(img_link).content
+            with open("images\\"+str(index+1)+".png","wb+") as f:
+                f.write(img_data)
+                print('Saving images '+str(i)+' of '+str(len(imglinks)), end="\r")
+                i+=1
+                
+        else:
+            print('Task Completed')
+            f.close()
+            break
         
 
 except:
