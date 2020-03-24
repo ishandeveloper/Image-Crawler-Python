@@ -32,7 +32,8 @@ try:
     os.mkdir('images')
     i=1
     
-
+    for index, img_link in enumerate(imglinks):
+        
 
 except:
     print("Oops! An unknown error has occurred or maybe you just entered an Invalid URL :D")
